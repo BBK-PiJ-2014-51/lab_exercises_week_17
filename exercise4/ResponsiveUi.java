@@ -22,7 +22,7 @@ public class ResponsiveUi  {
 			Task task = new Task(getWaitTime(i));
 			Thread t = new Thread(task);
 			ui.addTask(task, i);
-			t.start();			
+			t.start();
 		}
 	}
 
